@@ -1,0 +1,185 @@
+/*GLOBAL*/
+body {
+      color: #ccc;
+      font-family: "Arial", "Helvetica", "Helvetica Neue", "sans-serif";
+      font-size: 14px;
+      font-style: normal;
+      background: #000;
+      margin: 3px 65px 3px 65px;
+}
+p {
+      font-size: 14px;
+      font-style: normal;
+      text-align: left;      
+      line-height: 17px;
+      margin: 2px 2px 2px 1px;
+}
+strong {
+      color: #c7e0fe;
+      font-size: 14px;
+      font-style: normal;
+} 
+em {
+      color: #c7e0fe;
+      font-size: 14px;
+      font-style: italics;
+}  
+/*GLOBAL LINKS*/
+a {
+      color: #C7E0FE;
+      text-decoration: underline;
+}
+a#selected {
+      color: #fff;
+      text-decoration: none;}
+a:hover{
+      color: #7ba2dd;
+      text-decoration: underline;
+}
+
+/*HEADERS*/
+h1 {
+      color: #7ba2dd;
+      font-family: "Lucida Grande", "Arial", "Helvetica", "Helvetica Neue";
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 13px;
+}
+h2 {
+      color: #7ba2dd;
+      font-family: "Lucida Grande", "Arial", "Helvetica", "Helvetica Neue";
+      font-size: 15px;
+      font-weight: normal;
+      margin: 0 0 1px 0;
+}
+
+/*NAV TOOLBAR*/
+span#toolbar {
+      float: right;
+      padding: 70px 0 10px 0;
+}
+a.header {
+      color: #999;
+      text-decoration: none;
+}
+a#header2 {
+      color: #fff;
+      text-decoration: none;}
+
+/*EVENTS RIGHT COLUMN*/
+p#events {
+      margin: 5px 5px 5px 5px;
+}
+
+/*GLOBAL LAYOUT*/
+div#page {
+      margin: 0 auto 0 auto;
+      width: 900px;
+}
+div#header {
+      color: #c7efe;
+      font-size: 18px;
+      width: 100%;
+      text-align: right;
+      padding: 0 0 10px 0;
+}
+div#footer {
+      font-weight: normal;
+      color: #999;
+      font-size: 11px;
+      text-align: center;
+      clear: both;
+      width: 100%;
+      padding: 60px 0 15px 0;
+}
+
+/*INDEX*/
+div#content {
+      float: left;
+      width: 63%;
+      margin: 0 50px 0 0;
+}
+div#column {
+      text-align: left;
+      float: right;
+      width: 28%;
+      height: 530px;
+      border-color: #c7e0fe;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      border-radius: 15px;
+      border-width: 1px;
+      border-style: solid;
+      padding: 5px 9px 9px 9px;
+}
+
+/*MEET UV*/
+div#contentmem {
+      clear: both;
+      float: left;
+      width: 270px;
+      margin: 0 0 0 0;
+}
+div#rightimg {
+      float: right;
+      text-align: right;
+      width: 580px;
+}
+div#memimg {
+      float: right;
+      width: 210px;
+      margin: 40px 0 0 0;
+}
+div#meminfo {
+      float: right;
+      width: 330px;
+      margin: 40px 0 0 10px;
+}
+
+/*reg UV*/
+div#reguv {
+      float: left;
+      width: 100%;
+}
+
+/*IMAGES*/
+img{
+	border: none;
+	border: 0px;
+}
+img.left {
+      margin: 15px 15px 15px 0;
+}
+img#meetright {
+      margin: 15px 0 15px 15px;
+}
+img.center {
+      margin: 15px 0 15px 0;
+}
+img#header {
+      width: 400px;
+      float: left;
+      margin: 0 0 10px 0;
+	  border: none;
+}
+img.centertitle {
+      display: block;
+      margin: 0 auto 0 auto;
+}
+
+/*Be UV*/
+div#beuv {
+      clear: both;
+      float: left;
+      width: 450px;
+      margin: 0 0 0 0;
+}
+div#beuvright {
+      float: right;
+      text-align: right;
+      width: 400px;
+}
+img#beuvimg{
+      padding: 9px 0 0 0;
+	  width: 400px;
+}

@@ -1,39 +1,58 @@
 <!DOCTYPE html>
+<html lang="en">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Uptown Vocal - Columbia University</title>
   <meta name="description" content="Uptown Vocal is the premier jazz and pop a cappella group of Columbia University in the city of New York.">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
+<!--   <link rel="stylesheet" href="css/bootstrap.css">
+ -->  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/uv.css">
+
   <script src="js/vendor/modernizr-2.6.1.min.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="sidenav">
 
   <!--[if lt IE 7]>
   <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
   <![endif]-->
 
-  <div id="wrapper" role="main">
-    <section id="home" role="banner"></section>
-    <section id="members"></section>
-    <section id="media"></section>
-    <section id="auditions"></section>
-    <section id="contact"></section>
-    <nav></nav>
-  </div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <nav class="span2 sidenav">
+        <img id="logo" class="nav-header" src="http://www.columbia.edu/cu/uptownvocal/images/fernzang_logo_original.jpg">
+        <ul class="nav nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#auditions">Auditions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
+      <div class="span8">
+        <section id="home" role="banner"></section>
+        <section id="members"></section>
+        <section id="media"></section>
+        <section id="auditions"></section>
+        <section id="contact"></section>
+      </div>
+    </div>
+  </div>
   <footer>
     <!-- scripties -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <!-- scripties end-->
