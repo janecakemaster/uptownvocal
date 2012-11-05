@@ -13,15 +13,55 @@ a#selected {
 	text-decoration: none;
 }
 a:hover {
-	color: #7ba2dd;
+	/*color: #7ba2dd;*/
 }
 
-.sidenav {
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+#parent {
+  margin: -8px auto 0 auto;
+  width:960px;
+}
+
+#sidenav {
+  margin: 15px 0 0 0;
+  width: 153px;
+  height: auto;
+  position: fixed;
+}
+
+
+#logo {
+  margin: 0;
+}
+
+nav {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 25px 0 0 0;
+}
+
+nav ul{
+	list-style: none;
+	font-size: 20px;
+	padding-left: 0;
+	width: 125px;
 	text-align: right;
+	padding-right: 50px
 }
 
-.container{
-	margin-top: 30px;
+nav > .active > a,
+nav > .active > a:hover {
+  color: #ffffff;
+  background-color: #0088cc;
 }
 
 .footer{
@@ -29,12 +69,35 @@ a:hover {
 	padding-top: 40px;
 }
 
-section {
-	padding-top: 30px;
-	padding-bottom: 30px;
+#sidenav li a {
+  display:block;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
 }
 
-img {
-	max-width: 100%;
+nav li a:hover {
+  background-color: #1a1a1a;
 }
 
+nav li.active a {
+  background-color: #1a1a1a;
+}
+
+#main {
+  margin: 25px 20px 0 163px;
+  float: left;
+  width: 560px;
+  height: auto;
+}
+
+aside {
+  width: 215px;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+#events {
+	position: fixed
+}
