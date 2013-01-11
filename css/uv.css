@@ -85,10 +85,13 @@ nav li.active a {
 }
 
 #main {
-  margin: 25px 20px 0 163px;
+  margin: 25px 20px 0 200px;
   float: left;
   width: 560px;
   height: auto;
+  background-color: #1a1a1a;
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
 }
 
 aside {
