@@ -5,15 +5,17 @@ body {
 	font-style: normal;
 }
 a {
-	color: #C7E0FE;
+	color: #A3D3FF;
 	text-decoration: none;
 }
 a#selected {
 	color: #fff;
 	text-decoration: none;
+
 }
 a:hover {
-	/*color: #7ba2dd;*/
+	color: #7ba2dd;
+  text-decoration: none;
 }
 
 section {
@@ -95,7 +97,7 @@ nav li.active a {
 }
 
 aside {
-  width: 215px;
+  width: 100px;
   height: auto;
   float: left;
   position: relative;
