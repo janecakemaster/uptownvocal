@@ -111,17 +111,57 @@ aside {
   display: inline;
   list-style: none;
   width: 100px;
-  min-height: 120px;
-  float: left;
+/*  min-height: 120px;
+*/  float: left;
   margin: 0 15px 15px 0;
   text-align: center;
   font-size: 10px;
+}
+
+.gallery li p {
+   position: relative; 
+   top: -20px; 
+   left: 0; 
+   width: 100%;
 }
 
 .gallery li img {
   border:3px solid #000000;
 }
 
+.gallery p span {
+  color: white; 
+/*  letter-spacing: -1px;  
+*/  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; 
+}
+
 #home img {
   border:3px solid #000000;
+}
+
+.topimage { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.topimage h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%;
+}
+
+.topimage h2 span {
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; 
+}
+
+h2 span.spacer {
+   padding:0 5px;
 }
