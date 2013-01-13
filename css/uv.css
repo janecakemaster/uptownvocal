@@ -63,7 +63,8 @@ nav ul{
 
 nav li a {
   display: inline-block;
-  font-size: 30px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 25px;
   font-weight: 800;
   line-height: 100%;
   padding-left: 5px;
@@ -78,6 +79,8 @@ nav li img{
   margin-left: 250px;
   margin-right: 10px;
   width: auto;
+  max-width: 800px;
+  padding: 0 20px 0 20px;
 }
 
 .center{
@@ -107,4 +110,9 @@ section {
 .footer{
   text-align: center;
   padding-top: 40px;
+}
+
+.textfield{
+  max-width: 600px;
+  margin: 0 auto 0 auto;
 }
