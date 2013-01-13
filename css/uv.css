@@ -108,13 +108,20 @@ aside {
 }
 
 .gallery li {
-        display: inline;
-        list-style: none;
-        width: 100px;
-        min-height: 120px;
-        float: left;
-        margin: 0 10px 10px 0;
-        text-align: center;
+  display: inline;
+  list-style: none;
+  width: 100px;
+  min-height: 120px;
+  float: left;
+  margin: 0 15px 15px 0;
+  text-align: center;
+  font-size: 10px;
+}
 
-        font-size: 10px;
-  }
+.gallery li img {
+  border:3px solid #000000;
+}
+
+#home img {
+  border:3px solid #000000;
+}
