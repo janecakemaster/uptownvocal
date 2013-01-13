@@ -1,7 +1,7 @@
 body {
 	background: #000;
 	color: #FFF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 	font-style: normal;
   line-height: 100%;
 }
@@ -63,7 +63,6 @@ nav ul{
 
 nav li a {
   display: inline-block;
-  font-family: Helvetica, Arial, Sans-Serif;
   font-size: 25px;
   font-weight: 800;
   line-height: 100%;
