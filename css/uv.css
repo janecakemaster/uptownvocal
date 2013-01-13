@@ -47,7 +47,7 @@ h1{
 nav {
   height: auto;
   width: 230px;
-  margin-left: 10px;
+  margin-left: 20px;
   position: fixed;
   text-align: right;
 }
@@ -74,13 +74,15 @@ nav li img{
   margin: 5px 0;
 }
 
+.head img {
+  min-width: 100px;
+}
 
 #main {
   margin-left: 250px;
   margin-right: 10px;
   width: auto;
-  max-width: 800px;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 20px;
 }
 
 .center{
@@ -88,10 +90,10 @@ nav li img{
 }
 
 .centercarousel{
-  max-width: 700px;
+  max-width: 560px;
   margin: 0 auto;
-
 }
+
 section {
   margin-top: 20px;
   width: 100%;
