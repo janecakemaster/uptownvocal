@@ -6,7 +6,7 @@ body {
   line-height: 100%;
 }
 p{
-  font-size: 20px;
+  font-size: 24px;
   line-height: 120%;
   margin: 10px 0 18px 0;
 }
@@ -113,7 +113,7 @@ section {
   padding-top: 40px;
 }
 
-.textfield{
+/*.textfield{
   max-width: 600px;
   margin: 0 auto 0 auto;
-}
+}*/
