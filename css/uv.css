@@ -6,12 +6,12 @@ body {
   line-height: 100%;
 }
 p{
-  font-size: 24px;
+  font-size: 20px;
   line-height: 120%;
   margin: 10px 0 18px 0;
 }
 li{
-  font-size: 24px;
+  font-size: 20px;
   line-height: 110%;
 }
 a {
@@ -25,6 +25,10 @@ a#selected {
 a:hover {
 	color: #407aaf;
   text-decoration: none;
+}
+strong, b{
+  color: #bddfff;
+  font-weight: 800;
 }
 img{
   max-width: 100%;
