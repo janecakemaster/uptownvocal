@@ -1,0 +1,9 @@
+Logo Colors:
+
+Soft Blue:
+HEX: #A7CDDE
+RGB: 167 205 222
+
+Deep Blue:
+HEX: #7CA2D7
+RGB: 124 162 215

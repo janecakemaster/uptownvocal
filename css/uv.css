@@ -15,7 +15,7 @@ li{
   line-height: 110%;
 }
 a {
-	color: #A3D3FF;
+	color: #A7CDDE;
 	text-decoration: none;
 }
 a#selected {
@@ -23,7 +23,7 @@ a#selected {
 	text-decoration: none;
 }
 a:hover {
-	color: #407aaf;
+	color: #7CA2D7;
   text-decoration: none;
 }
 strong, b{
