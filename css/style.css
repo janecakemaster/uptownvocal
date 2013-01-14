@@ -101,11 +101,13 @@ h1 {
 }
 
 nav {
-	height: auto;
-	width: 230px;
+	background: #000;
+	height: 100%;
 	margin-left: 10px;
 	position: fixed;
 	text-align: right;
+	width: 230px;
+	z-index: 9999;
 }
 
 #logo{
@@ -161,6 +163,20 @@ section {
 	list-style: none;
 	margin: 0 10px 0 10px;
 	padding-bottom: 10px;
+	width: 150px;
+}
+.gallery span{
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0) transparent;
+  /* RGBa */
+  background: rgba(0, 0, 0, 0.65);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000)";
+	margin-top: -20px;
+	margin-left: -75px;
+	position: absolute;
 	width: 150px;
 }
 
