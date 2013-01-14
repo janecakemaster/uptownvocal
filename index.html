@@ -12,6 +12,8 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:500,800,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/ostrich.css" type="text/css" charset="utf-8" />
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
 </head>
 
 <body>
@@ -43,16 +45,8 @@
 			</section>
 			<section id="members">
 				<h1>Members</h1>
-				<div class="center">
-					<ul class="gallery">
-						
-<!-- 						<span class="nr_img_div">
-							<img ng-src="http://imgcdn.nrelate.com/image_cache/jk.newsbloggingtoday.com/5b19de361a496a8ed2107c914b7a0ff3_thumb_306953_10150872114430163_144275334_n-300x199.jpeg" class="nr_img" src="http://imgcdn.nrelate.com/image_cache/jk.newsbloggingtoday.com/5b19de361a496a8ed2107c914b7a0ff3_thumb_306953_10150872114430163_144275334_n-300x199.jpeg">
-						</span>
-						<span class="nr_text">
-							<span class="nr_post_title ng-binding">THIS is a really really long title testing</span>
-						</span> -->
-
+				<div id="gallery">
+					<ul>
 						<li><img src="meetUV/allison2.png">
 						<span>Allison Heimann</span></li>
 						<li><img src="meetUV/danielle.png">
@@ -96,7 +90,7 @@
 			<section id="media">
 				<h1>Media</h1>
 				<!-- Carousel -->
-				<div class="centercarousel">
+				<div id="centercarousel">
 					<div id="myCarousel" class="carousel slide">
 						<div class="carousel-inner">
 							<div class="item active">
@@ -169,5 +163,8 @@
 			$(function(){$('#myCarousel').carousel()})
 		}(window.jQuery)
 	</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/uv.js"></script>
+
 </body>
 </html>
