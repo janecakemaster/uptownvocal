@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+	 v2.0 | 20110126
+	 License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 /* end clear */
 
@@ -52,116 +52,117 @@ table {
 body {
 	background: #000;
 	color: #FFF;
-  font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+p, li {
+	font-size: 22px;
 	font-style: normal;
-  font-weight: 400;
-  line-height: 100%;
+	font-weight: 300;
+	letter-spacing: 0.04em;
+	line-height: 120%;
 }
-p{
-  font-size: 24px;
-  line-height: 120%;
-  margin: 10px 0 18px 0;
+p {
+	margin: 10px 0 18px 0;
 }
-li{
-  font-size: 24px;
-  line-height: 110%;
+.justify{
+	text-align: justify;
 }
+
 a {
 	color: #A7CDDE;
-	text-decoration: none;
-}
-a#selected {
-	color: #fff;
+	font-weight: 500;
 	text-decoration: none;
 }
 a:hover {
 	color: #7CA2D7;
-  text-decoration: none;
 }
-strong, b{
-  color: #cce2ec;
-  font-weight: 700;
+
+strong, b {
+	color: #cce2ec;
+	font-weight: 500;
 }
-img{
-  max-width: 100%;
+
+img {
+	max-width: 100%;
 }
-h1{
-  color: #A7CDDE;
-  font-size: 44px;
-  font-weight: 800;
-  margin: 50px 0 40px 0;
-  text-align: center;
+
+h1 {
+	color: #A7CDDE;
+	font-size: 42px;
+	font-weight: 800;
+	margin: 50px 0 20px 0;
+	text-align: center;
 }
+
 #parent {
-  margin: auto;
-  width: 100%;
+	margin: auto;
+	width: 100%;
 }
 
 nav {
-  height: auto;
-  width: 230px;
-  margin-left: 10px;
-  position: fixed;
-  text-align: right;
+	height: auto;
+	width: 230px;
+	margin-left: 10px;
+	position: fixed;
+	text-align: right;
 }
 
 #logo{
-  width: 100%;
+	width: 100%;
 }
-nav ul{
+
+nav ul {
 	list-style: none;
-  margin: 5px 0 15px 0;
-  padding-left: 0;
+	margin: 5px 0 15px 0;
+	padding-left: 0;
 }
 
 nav li a {
-  display: inline-block;
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 100%;
-  padding-left: 5px;
+	display: inline-block;
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 100%;
+	padding-left: 5px;
 }
 
-nav li img{
-  margin: 5px 0;
+nav li img {
+	margin: 5px 0;
 }
 
-.head img {
-  min-width: 100px;
+#home img {
+	min-width: 600px;
 }
 
 #main {
-  margin-left: 250px;
-  margin-right: 10px;
-  width: auto;
-  padding: 0 10px 0 20px;
-}
-
-.center{
-  text-align: center;
-}
-
-.centercarousel{
-  max-width: 600px;
-  margin: 0 auto;
+	margin-left: 250px;
+	margin-right: 10px;
+	padding: 0 10px 0 20px;
+	width: auto;
 }
 
 section {
-  margin-top: 20px;
-  width: 100%;
+	margin-top: 20px;
+	width: 100%;
 }
-
+.center {
+	text-align: center;
+}
+.centercarousel {
+	margin: 0 auto;
+	max-width: 600px;
+}
 .gallery li {
-  float: left;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 100%;
-  list-style: none;
-  margin: 0 10px 0 10px;
-  padding-bottom: 10px;
-  width: 150px;
+	float: left;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.06em;
+	line-height: 110%;
+	list-style: none;
+	margin: 0 10px 0 10px;
+	padding-bottom: 10px;
+	width: 150px;
 }
-
-footer{
-  text-align: center;
+footer {
+	text-align: center;
 }
