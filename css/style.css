@@ -107,7 +107,7 @@ nav {
 	position: fixed;
 	text-align: right;
 	width: 230px;
-	z-index: 9999;
+	z-index: 500;
 }
 
 #logo{
@@ -189,6 +189,8 @@ section {
 
 .modalStyle{
 	color: #000000;
+	z-index: 9999;
+
 }
 
 .modalStyle img{
