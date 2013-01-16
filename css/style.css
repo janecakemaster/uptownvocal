@@ -186,6 +186,14 @@ section {
 	width: 160px;
 }
 
+.modalStyle{
+	color: #000000;
+}
+
+.modalStyle p{
+	font-size: 14px;
+}
+
 footer {
 	font-size: 12px;
 	font-weight: 300;
