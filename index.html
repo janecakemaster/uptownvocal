@@ -45,6 +45,26 @@
 			<section id="members">
 				<h1>Members</h1>
 				<div id="gallery">
+
+			      <!-- Button to trigger modal -->
+			      <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+			 
+			      <!-- Modal -->
+			      <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			          <h3 id="myModalLabel">Modal header</h3>
+			        </div>
+			        <div class="modal-body">
+			          <p>One fine body…</p>
+			        </div>
+			        <div class="modal-footer">
+			          <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			          <button class="btn btn-primary">Save changes</button>
+			        </div>
+			      </div>
+
+					
 					<ul>
 						<li><img src="meetUV/allison2.png">
 						<span>Allison Heimann</span></li>
@@ -142,6 +162,7 @@
 					<li> <strong>Lizzy Karnauhk</strong> (soprano) BC'16</li>
 					<li> <strong>Mikhail Qader</strong> (bass) SEAS'16</li>
 				</ul>
+
 			</section>
 			<section id="contact">
 				<h1>Contact</h1>
@@ -156,6 +177,9 @@
 
 	<script src="js/vendor/jquery-1.8.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+
 	<script>
 		!function ($) {
 			$(function(){$('#myCarousel').carousel()})
