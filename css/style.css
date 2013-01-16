@@ -184,14 +184,26 @@ section {
 	position: absolute;
 	text-align: center;
 	width: 160px;
+	font-size: 14px;
 }
 
 .modalStyle{
 	color: #000000;
 }
 
+.modalStyle img{
+	color: #000000;
+	float: left;
+	border: 3px solid black;
+	margin-right: 16px;
+}
+
 .modalStyle p{
-	font-size: 14px;
+	font-size: 16px;
+}
+
+.modalStyle strong, em{
+	color: #7CA2D7;
 }
 
 footer {
