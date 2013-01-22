@@ -11,3 +11,12 @@ $(window).resize ->
   n = Math.floor sectWidth / liWidth
   galWidth = n * liWidth
   $('#gallery').css 'width', galWidth
+
+# scrollToAnchor = (place) ->
+#   tag = $('#'+ place)
+#   $('html, body').animate {scrollTop: tag.offSet().top}, 'slow'
+
+# $('#scrollto').click ->
+#   place = $(this).html().toLowerCase()
+#   scrollToAnchor place
+
