@@ -211,6 +211,16 @@ section {
 	color: #7CA2D7;
 }
 
+.modalimg{
+	width: 120px;
+}
+
+.modal-footer{
+	background: transparent;
+	border-top: none;
+	padding: 5px 8px 5px;
+}
+
 footer {
 	font-size: 12px;
 	font-weight: 300;
@@ -218,14 +228,13 @@ footer {
 	margin-top: 100px;
 	text-align: center;
 }
-/*@media (max-width: 870px) {
-    nav{
 
-        position: relative;
-    }
-    #main{
-        margin:0 auto;
-        
-    }
+/*@media (max-width: 870px) {
+	nav{
+		position: relative;
+	}
+	#main{
+		margin:0 auto;
+	}
     
 }*/
