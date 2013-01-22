@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-	 v2.0 | 20110126
-	 License: none (public domain)
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,221 +16,226 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* end clear */
 
 
 body {
-	background: #000;
-	color: #FFF;
-	font-family: 'Raleway', sans-serif;
+  background: #000;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
 }
 
 p, li {
-	font-size: 26px;
-	font-style: normal;
-	font-weight: 300;
-	letter-spacing: 0.04em;
-	line-height: 120%;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  line-height: 120%;
 }
 p {
-	margin: 10px 0 18px 0;
+  margin: 10px 0 18px 0;
 }
 .justify {
-	text-align: justify;
+  text-align: justify;
 }
 
 a {
-	color: #A7CDDE;
-	font-weight: 500;
-	text-decoration: none;
+  color: #A7CDDE;
+  font-weight: 500;
+  text-decoration: none;
 }
 a:hover {
-	color: #7CA2D7;
+  color: #7CA2D7;
 }
 
 strong, b {
-	color: #cce2ec;
-	font-weight: 500;
+  color: #cce2ec;
+  font-weight: 500;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 h1 {
-	color: #A7CDDE;
-	font-size: 42px;
-	font-weight: 800;
-	margin: 50px 0 20px 0;
-	text-align: center;
+  color: #A7CDDE;
+  font-size: 42px;
+  font-weight: 800;
+  margin: 50px 0 20px 0;
+  text-align: center;
 }
 
 #parent {
-	margin: auto;
-	width: 100%;
+  margin: auto;
+  width: 100%;
 }
 
 nav {
-	background: #000;
-	height: 100%;
-	margin-left: 10px;
-	position: fixed;
-	text-align: right;
-	width: 230px;
-	z-index: 9000;
+  background: #000;
+  height: 100%;
+  margin-left: 10px;
+  position: fixed;
+  text-align: right;
+  width: 230px;
+  z-index: 9000;
 }
 
 #logo {
-	width: 100%;
+  width: 100%;
 }
 
 nav ul {
-	list-style: none;
-	margin: 5px 0 15px 0;
-	padding-left: 0;
+  list-style: none;
+  margin: 5px 0 15px 0;
+  padding-left: 0;
 }
 
 nav li a {
-	display: inline-block;
-	font-size: 28px;
-	font-weight: 800;
-	line-height: 100%;
-	padding-left: 5px;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 100%;
+  padding-left: 5px;
 }
 
 nav li img {
-	margin: 5px 0;
+  margin: 5px 0;
+}
+
+#sticky{
+  margin: 10px;
+  text-align: center;
 }
 
 #home img {
-	min-width: 600px;
-	width: 90%;
-	padding-top: 60px;
+  min-width: 600px;
+  width: 90%;
+  padding-top: 60px;
 }
 
 #main {
-	margin-left: 250px;
-	margin-right: 10px;
-	padding: 0 10px 0 20px;
-	width: auto;
+  margin-left: 250px;
+  margin-right: 10px;
+  padding: 0 10px 0 20px;
+  width: auto;
 }
 
 section {
-	margin: 0 auto;
-	margin-bottom: 90px;
-	width: 95%;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  width: 95%;
 }
 .center {
-	text-align: center;
+  text-align: center;
 }
 #centercarousel {
-	margin: 0 auto;
-	max-width: 600px;
+  margin: 0 auto;
+  max-width: 600px;
 }
 #gallery {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 #gallery li {
-	float: left;
-	font-size: 16px;
-	font-weight: 300;
-	letter-spacing: 0.06em;
-	line-height: 110%;
-	list-style: none;
-	margin: 0 10px 0 10px;
-	padding-bottom: 10px;
-	width: 160px;
+  float: left;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  line-height: 110%;
+  list-style: none;
+  margin: 0 10px 0 10px;
+  padding-bottom: 10px;
+  width: 160px;
 }
 #gallery span {
-	/* Fallback for web browsers that doesn't support RGBa */
-	background: rgb(0, 0, 0) transparent;
-	/* RGBa */
-	background: rgba(0, 0, 0, 0.65);
-	/* For IE 5.5 - 7*/
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000);
-	/* For IE 8*/
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000)";
-	height: 17px;
-	margin-top: -25px;
-	overflow-y: hidden;
-	padding: 3px 0 3px 0;
-	position: absolute;
-	text-align: center;
-	width: 160px;
-	font-size: 14px;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0) transparent;
+  /* RGBa */
+  background: rgba(0, 0, 0, 0.65);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000)";
+  height: 17px;
+  margin-top: -25px;
+  overflow-y: hidden;
+  padding: 3px 0 3px 0;
+  position: absolute;
+  text-align: center;
+  width: 160px;
+  font-size: 14px;
 }
 
 .modalStyle {
-	color: #000000;
-	z-index: 9999;
+  color: #000000;
+  z-index: 9999;
 }
 
 .modalStyle img {
-	color: #000000;
-	float: left;
-	margin-right: 16px;
-	width: 120px;
+  color: #000000;
+  float: left;
+  margin-right: 16px;
+  width: 120px;
 }
 
 .modalStyle p {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .modalStyle strong,
 .modalStyle em {
-	color: #7CA2D7;
+  color: #7CA2D7;
 }
 
 .modal-footer{
-	background: transparent;
-	border-top: none;
-	padding: 5px 8px 5px;
+  background: transparent;
+  border-top: none;
+  padding: 5px 8px 5px;
 }
 
 footer {
-	font-size: 12px;
-	font-weight: 300;
-	letter-spacing: 0.05em;
-	margin-top: 100px;
-	text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin-top: 100px;
+  text-align: center;
 }
 
 /*@media (max-width: 870px) {
-	nav{
-		position: relative;
-	}
-	#main{
-		margin:0 auto;
-	}
+  nav{
+    position: relative;
+  }
+  #main{
+    margin:0 auto;
+  }
     
 }*/
