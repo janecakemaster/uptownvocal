@@ -65,7 +65,7 @@ p, li {
 p {
 	margin: 10px 0 18px 0;
 }
-.justify{
+.justify {
 	text-align: justify;
 }
 
@@ -107,10 +107,10 @@ nav {
 	position: fixed;
 	text-align: right;
 	width: 230px;
-	z-index: 500;
+	z-index: 9000;
 }
 
-#logo{
+#logo {
 	width: 100%;
 }
 
@@ -157,7 +157,7 @@ section {
 	margin: 0 auto;
 	max-width: 600px;
 }
-#gallery{
+#gallery {
 	margin: 0 auto;
 }
 #gallery li {
@@ -171,7 +171,7 @@ section {
 	padding-bottom: 10px;
 	width: 160px;
 }
-#gallery span{
+#gallery span {
 	/* Fallback for web browsers that doesn't support RGBa */
 	background: rgb(0, 0, 0) transparent;
 	/* RGBa */
@@ -190,35 +190,30 @@ section {
 	font-size: 14px;
 }
 
-.modalStyle{
+.modalStyle {
 	color: #000000;
 	z-index: 9999;
-
 }
 
-.modalStyle img{
+.modalStyle img {
 	color: #000000;
 	float: left;
-	border: 3px solid black;
 	margin-right: 16px;
-}
-
-.modalStyle p{
-	font-size: 16px;
-}
-
-.modalStyle strong, em{
-	color: #7CA2D7;
-}
-
-.modalimg{
 	width: 120px;
 }
 
-.modal-footer{
+.modalStyle p {
+	font-size: 18px;
+}
+
+.modalStyle strong,
+.modalStyle em {
+	color: #7CA2D7;
+}
+
+.modal-header{
 	background: transparent;
-	border-top: none;
-	padding: 5px 8px 5px;
+	border: none;
 }
 
 footer {
