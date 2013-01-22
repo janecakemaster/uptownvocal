@@ -211,9 +211,10 @@ section {
 	color: #7CA2D7;
 }
 
-.modal-header{
+.modal-footer{
 	background: transparent;
-	border: none;
+	border-top: none;
+	padding: 5px 8px 5px;
 }
 
 footer {
