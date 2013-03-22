@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
   var sortGallery = function() {
     var liWidth = $('#gallery li').outerWidth(true);
