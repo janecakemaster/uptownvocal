@@ -230,12 +230,9 @@ footer {
   text-align: center;
 }
 
-/*@media (max-width: 870px) {
-  nav{
-    position: relative;
-  }
-  #main{
-    margin:0 auto;
-  }
-    
-}*/
+/* Firefox label problem, quick fix */
+@-moz-document url-prefix() {
+  #gallery span {
+        position: static;
+    }
+}
