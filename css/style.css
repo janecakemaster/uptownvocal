@@ -143,6 +143,10 @@ nav li img {
   padding-top: 60px;
 }
 
+#home h1 {
+  display: none;
+}
+
 #main {
   margin-left: 250px;
   margin-right: 10px;
@@ -225,6 +229,7 @@ footer {
   text-align: center;
 }
 
+
 /* Media Queries for all devices: */
 
   /* Smaller than standard 960 (devices and browsers) */
@@ -256,7 +261,13 @@ footer {
     #home img {
       width: 100%;
       padding-top: 0;
+      padding-bottom: 10px;
     }
+
+    #home h1 {
+      display: inline;
+    }
+
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -268,9 +279,10 @@ footer {
 
 /* Opera Media query */
 @media not screen and (1) {
+  
   #gallery span {
-        position: static;
-    }
+    position: static;
+  }
 }
 
 /* Firefox label problem, quick fix */
