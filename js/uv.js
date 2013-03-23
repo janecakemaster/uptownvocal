@@ -34,6 +34,10 @@ $(function() {
 
 	}
 
+	if ($(window).width() < 600) {
+		options.width = "auto";
+	}
+
 	$( "#allisonModal" ).dialog(options);
 	$( "#allison-pic" ).click(function() {
 		$( "#allisonModal" ).dialog( "open" );
