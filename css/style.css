@@ -229,6 +229,22 @@ footer {
   text-align: center;
 }
 
+.slider {
+  margin: 10px auto;
+  width: 600px; 
+  height: 390px;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+
 
 /* Media Queries for all devices: */
 
