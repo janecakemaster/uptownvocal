@@ -1,7 +1,6 @@
-/* PurelyCSS Elegance Buttons
+ PurelyCSS Elegance Buttons
 -------------------------------------------------------------- */
 .purelycss_elegance_button{
-font-family:Arial,Helvetica,sans-serif;
 text-transform:uppercase;
 text-decoration:none;
 display:inline-block;
@@ -11,10 +10,10 @@ padding:10px 50px;
 font-size:12px;
 line-height:15px;
 letter-spacing:2px;
-border:2px solid #111;
-background:#111;
-color:#f8f8f8;
-background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(255,255,255,0.15)),color-stop(1,rgba(0,0,0,0.1)));
+/*border:2px solid #111;*/
+/*background:#111;*/
+/*color:#f8f8f8;*/
+/*background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(255,255,255,0.15)),color-stop(1,rgba(0,0,0,0.1)));
 background-image:-webkit-linear-gradient(top,rgba(255,255,255,0.15),rgba(255,255,255,0.01));
 background-image:-moz-linear-gradient(top,rgba(255,255,255,0.15),rgba(255,255,255,0.01));
 background-image:-o-linear-gradient(top,rgba(255,255,255,0.15),rgba(255,255,255,0.01));
@@ -26,12 +25,12 @@ box-shadow:1px 1px 0 rgba(255,255,255,0.4) inset,-1px -1px 0 rgba(255,255,255,0.
 -moz-transition:all .5s ease;
 -o-transition:all .5s ease;
 transition:all .5s ease;
--webkit-border-radius:2px;
+*/-webkit-border-radius:2px;
 -moz-border-radius:2px;
 border-radius:2px;}
 .purelycss_elegance_button.size_small{font-size:10px;padding:6px 25px;}
 .purelycss_elegance_button.size_large{font-size:15px;padding:15px 70px;}
-.purelycss_elegance_button:hover{text-decoration:none;cursor:pointer;color:#fff;opacity:.7;}
+.purelycss_elegance_button:hover{/*text-decoration:none;cursor:pointer;*/color:#fff;opacity:1;}
 .purelycss_elegance_button:active{position:relative;top:1px;}
  
 /* Sizes / Alignments
@@ -44,16 +43,16 @@ border-radius:2px;}
  
 /* Colors / Hovers
 -------------------------------------------------------------- */
-.color_red,.hover_red:hover{background-color:#700;border-color:#700;opacity:1;}
+/*.color_red,.hover_red:hover{background-color:#700;border-color:#700;opacity:1;}
 .color_orange,.hover_orange:hover{background-color:#e98813;border-color:#e98813;opacity:1;}
 .color_yellow,.hover_yellow:hover{background-color:#f7c808;border-color:#f7c808;opacity:1;}
 .color_green,.hover_green:hover{background-color:#74941f;border-color:#74941f;opacity:1;}
 .color_olive,.hover_olive:hover{background-color:#3a491a;border-color:#3a491a;opacity:1;}
 .color_teal,.hover_teal:hover{background-color:#089;border-color:#089;opacity:1;}
 
-.color_uv,.hover_uv:hover{background-color:#6fadc9;border-color:#6fadc9;opacity:1;}
+*/.color_uv,.hover_uv:hover{background-color:#6fadc9;border-color:#6fadc9;opacity:1;}
 
-.color_blue,.hover_blue:hover{background-color:#00437f;border-color:#00437f;opacity:1;}
+/*.color_blue,.hover_blue:hover{background-color:#00437f;border-color:#00437f;opacity:1;}
 .color_deepblue,.hover_deepblue:hover{background-color:#092334;border-color:#092334;opacity:1;}
 .color_purple,.hover_purple:hover{background-color:#4b2c5a;border-color:#4b2c5a;opacity:1;}
 .color_hotpink,.hover_hotpink:hover{background-color:#bc006e;border-color:#bc006e;opacity:1;}
