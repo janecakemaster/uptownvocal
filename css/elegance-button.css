@@ -50,6 +50,9 @@ border-radius:2px;}
 .color_green,.hover_green:hover{background-color:#74941f;border-color:#74941f;opacity:1;}
 .color_olive,.hover_olive:hover{background-color:#3a491a;border-color:#3a491a;opacity:1;}
 .color_teal,.hover_teal:hover{background-color:#089;border-color:#089;opacity:1;}
+
+.color_uv,.hover_uv:hover{background-color:#8198CC;border-color:#8198CC;opacity:1;}
+
 .color_blue,.hover_blue:hover{background-color:#00437f;border-color:#00437f;opacity:1;}
 .color_deepblue,.hover_deepblue:hover{background-color:#092334;border-color:#092334;opacity:1;}
 .color_purple,.hover_purple:hover{background-color:#4b2c5a;border-color:#4b2c5a;opacity:1;}

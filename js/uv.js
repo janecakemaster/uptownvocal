@@ -73,6 +73,11 @@ $(function() {
 		$( "#janeModal" ).dialog( "open" );
 	});
 
+	$( "#heatherModal" ).dialog(options);
+	$( "#heather-pic" ).click(function() {
+		$( "#heatherModal" ).dialog( "open" );
+	});
+
 	$( "#jonathanModal" ).dialog(options);
 	$( "#jonathan-pic" ).click(function() {
 		$( "#jonathanModal" ).dialog( "open" );
