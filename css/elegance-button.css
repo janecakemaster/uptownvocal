@@ -1,4 +1,4 @@
- PurelyCSS Elegance Buttons
+/* PurelyCSS Elegance Buttons
 -------------------------------------------------------------- */
 .purelycss_elegance_button{
 text-transform:uppercase;
@@ -25,17 +25,26 @@ box-shadow:1px 1px 0 rgba(255,255,255,0.4) inset,-1px -1px 0 rgba(255,255,255,0.
 -moz-transition:all .5s ease;
 -o-transition:all .5s ease;
 transition:all .5s ease;
-*/-webkit-border-radius:2px;
+*/
+-webkit-border-radius:2px;
 -moz-border-radius:2px;
 border-radius:2px;}
+<<<<<<< HEAD
 .purelycss_elegance_button.size_small{font-size:10px;padding:6px 25px;}
 .purelycss_elegance_button.size_large{font-size:15px;padding:15px 70px;color: #fff;}
+=======
+
+a.purelycss_elegance_button{color: #606060;}
+
+/*.purelycss_elegance_button.size_small{font-size:10px;padding:6px 25px;}*/
+.purelycss_elegance_button.size_large{font-size:15px;padding:15px 70px;}
+>>>>>>> Github being all buggy and shit
 .purelycss_elegance_button:hover{/*text-decoration:none;cursor:pointer;*/color:#fff;opacity:1;}
 .purelycss_elegance_button:active{position:relative;top:1px;}
  
 /* Sizes / Alignments
 -------------------------------------------------------------- */
-.size_small{padding:8px 20px;font-size:10px;line-height:10px;}
+/*.size_small{padding:8px 20px;font-size:10px;line-height:10px;}*/
 .size_large{padding:15px 40px;font-size:17px;line-height:20px;}
 .align_left{float:left;margin:0 15px 5px 0;}
 .align_right{float:right;margin:0 0 5px 15px;}
