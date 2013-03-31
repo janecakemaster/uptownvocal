@@ -29,7 +29,7 @@ transition:all .5s ease;
 -moz-border-radius:2px;
 border-radius:2px;}
 .purelycss_elegance_button.size_small{font-size:10px;padding:6px 25px;}
-.purelycss_elegance_button.size_large{font-size:15px;padding:15px 70px;}
+.purelycss_elegance_button.size_large{font-size:15px;padding:15px 70px;color: #fff;}
 .purelycss_elegance_button:hover{/*text-decoration:none;cursor:pointer;*/color:#fff;opacity:1;}
 .purelycss_elegance_button:active{position:relative;top:1px;}
  
