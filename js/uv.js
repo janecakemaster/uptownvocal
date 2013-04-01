@@ -21,7 +21,7 @@ $(function() {
 			duration: 500
 			},
         
-   	hide: {
+   		hide: {
 			effect: "fade",
 			duration: 500
 		},
