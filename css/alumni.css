@@ -29,6 +29,15 @@
 	margin: 12px 12px 12px 0px;
 }
 
+.year a {
+	text-decoration: underline;
+}
+
+.year a:link {color: #3D64FF;}
+.year a:hover {color: #7CA2D7;}
+.year a:visited {color: #A159A1;}
+
+
 .selectable {
 	border:5px solid #ffffff;
 
@@ -61,6 +70,8 @@
 	padding: .2em .2em .2em 1.7em;
 }
 
+
+
 /* Remove Default Corner radius */
 
 .ui-corner-all,
@@ -86,6 +97,22 @@
 .ui-corner-right,
 .ui-corner-br {
 	border-bottom-right-radius: 0px;
+}
+
+/* Highlight function */
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	color: #555555;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover {
+    border: 1px solid #606060;
+	background: #808080 url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
+	font-weight: normal;
+	color: #000000;
 }
 
 @media only screen and (max-width: 600px) {
