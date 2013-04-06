@@ -206,6 +206,10 @@ section {
   font-size: 14px;
 }
 
+#history a {
+  text-decoration: underline;
+}
+
 .modalStyle {
   color: #000000;
 }
