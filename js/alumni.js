@@ -151,17 +151,5 @@ $(function() {
         var $spy = $(this).scrollspy('refresh')
         }); 
     });
-   
-
-    // Smooth scroll: Works, but is jittery :(
-    // $('#navbar li').click(function(){  
-    //     var liIndex = $(this).index();
-    //     var contentPosTop = $('.year').eq(liIndex).position().top;
-  
-    // $('html, body').stop().animate({
-    //     scrollTop: contentPosTop
-    //     }, 1000);
-    // });
-
 
 });
