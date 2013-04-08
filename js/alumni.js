@@ -9,7 +9,6 @@ $(function() {
 	});
 
 
-
     "use strict"; // jshint ;_;
 
 
@@ -146,12 +145,13 @@ $(function() {
         })
     })
 
-    /* Scrollspy resizing fix! */
-	$( '.accordion' ).on( "accordionactivate", function( event, ui ) {
-		$('[data-spy="scroll"]').each(function () {
-		var $spy = $(this).scrollspy('refresh')
-		});	
-	});
+    /*Scrollspy resizing fix! */
+    $( '.accordion' ).on( "accordionactivate", function( event, ui ) {
+        $('[data-spy="scroll"]').each(function () {
+        var $spy = $(this).scrollspy('refresh')
+        }); 
+    });
+   
 
     // Smooth scroll: Works, but is jittery :(
     // $('#navbar li').click(function(){  
