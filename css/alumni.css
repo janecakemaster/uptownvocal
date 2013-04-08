@@ -59,13 +59,16 @@
 .year a:hover {color: #7CA2D7;}
 .year a:visited {color: #A159A1;}
 
-
 #alumni {
 	width: 85%;
 }
 
 #alumni h1 {
 	margin-top: 0px;
+}
+
+#alumni p {
+	font-size: 22px;
 }
 
 .selectable {
