@@ -1,16 +1,17 @@
 .year {
 	width: 80%;
 	margin: 0px auto 0px;
-	border: 5px solid #ffffff;
-	padding: 10px 16px 20px;
-	background-color: #303030;
-	margin-bottom: 30px;
+/*	border: 5px solid #ffffff;
+*/	padding: 10px 16px 20px;
+/*	background-color: #303030;
+*/	margin-bottom: 30px;
+	text-align: center;
 
-	-webkit-transition: all 0.2s ease-out;
+/*	-webkit-transition: all 0.2s ease-out;
   	-moz-transition: all 0.2s ease-out;
   	-ms-transition: all 0.2s ease-out;
   	-o-transition: all 0.2s ease-out;
-  	transition: all 0.2s ease-out;
+  	transition: all 0.2s ease-out;*/
 }
 
 #navbar {
@@ -35,14 +36,14 @@
     padding-right: 0px;
 }
 
+
 .year:hover {
 	color: #7CA2D7;
-
-	border: 5px solid #7CA2D7;
 }
 
 .year h2 {
-	font-size: 32px;
+	font-size: 44px;
+	text-align: center;
 }
 
 .year img {
@@ -87,6 +88,7 @@
 
 .accordion p {
 	font-size: 20px;
+	text-align: left;
 }
 
 .accordion strong {
