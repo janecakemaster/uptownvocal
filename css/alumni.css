@@ -37,12 +37,9 @@
 }
 
 
-.year:hover {
-	color: #7CA2D7;
-}
-
 .year h2 {
 	font-size: 44px;
+	color: #A7CDDE;
 	text-align: center;
 }
 
