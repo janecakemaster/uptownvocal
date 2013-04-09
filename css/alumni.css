@@ -333,6 +333,14 @@ FIXES FIXES DON'T DELETE
 
 /* Media Queries */
 
+@media only screen and (max-width: 1000px) {
+	.accordion p {
+		float: left;
+	}
+
+}
+
+
 @media only screen and (max-width: 600px) {
 	.year img {max-height: 150px;}
 }
