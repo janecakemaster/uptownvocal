@@ -139,13 +139,10 @@
 	padding: .5em .5em .5em .7em;
 	min-height: 0; /* support: IE7 */
 }
-.ui-accordion .ui-accordion-icons {
-	padding-left: 2.2em;
-}
 
-.ui-accordion .ui-accordion-icons .ui-accordion-icons {
-	padding-left: 2.2em;
-}
+.ui-accordion .ui-accordion-icons {padding-left: 2.2em;}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {padding-left: 2.2em;}
+
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
 	position: absolute;
 	left: .5em;
@@ -243,10 +240,9 @@
 ----------------------------------*/
 
 /* states and images */
-.ui-icon {
-	width: 16px;
-	height: 16px;
-}
+
+.ui-icon {width: 16px; height: 16px}
+
 .ui-icon,
 .ui-widget-content .ui-icon {
 	background-image: url(../img/ui-icons_222222_256x240.png);
@@ -269,7 +265,7 @@
 }
 
 /* positioning */
-.ui-icon-blank { background-position: 16px 16px; }
+.ui-icon-blank 		  { background-position: 16px 16px; }
 .ui-icon-triangle-1-e { background-position: -32px -16px; }
 .ui-icon-triangle-1-s { background-position: -64px -16px; }
 
@@ -281,28 +277,22 @@
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-left,
-.ui-corner-tl {
-	border-top-left-radius: 4px;
-}
+.ui-corner-tl {border-top-left-radius: 4px;}
+
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
-.ui-corner-tr {
-	border-top-right-radius: 4px;
-}
+.ui-corner-tr {border-top-right-radius: 4px}
+
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
-.ui-corner-bl {
-	border-bottom-left-radius: 4px;
-}
+.ui-corner-bl {border-bottom-left-radius: 4px}
+
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
-.ui-corner-br {
-	border-bottom-right-radius: 4px;
-}
-
+.ui-corner-br {border-bottom-right-radius: 4px}
 
 
 /* 
@@ -334,19 +324,32 @@ FIXES FIXES DON'T DELETE
 /* Media Queries */
 
 @media only screen and (max-width: 1000px) {
+	.year 		 {width: 85%;}
+	.accordion p {float: left; clear: both}
+}
+
+@media only screen and (max-width: 767px) {
+	#navbar   {display: none}
+	#alumni p {font-size: 16px}
+	.year     {width: 90%}
+	.year     {padding: 10px}  
+
+	.ui-accordion .ui-accordion-content {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.accordion img {
+		display: block;	
+		float: none;
+		margin: 0 auto 5px auto;
+	}
 	.accordion p {
-		float: left;
+		font-size: 18px;
+		margin: 8px 8px;
 	}
 
 }
 
-
 @media only screen and (max-width: 600px) {
-	.year img {max-height: 150px;}
-}
-
-@media only screen and (max-width: 767px) {
-	#navbar {
-      display: none;
-    }
+	.year img {max-height: 150px}
 }
