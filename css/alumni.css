@@ -325,7 +325,13 @@ FIXES FIXES DON'T DELETE
 
 @media only screen and (max-width: 1000px) {
 	.year 		 {width: 85%;}
-	.accordion p {float: left; clear: both}
+
+	.accordion p {
+		float: left; 
+		clear: both;
+		font-size: 18px;
+		margin: 5px 5px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -343,11 +349,6 @@ FIXES FIXES DON'T DELETE
 		float: none;
 		margin: 0 auto 5px auto;
 	}
-	.accordion p {
-		font-size: 18px;
-		margin: 8px 8px;
-	}
-
 }
 
 @media only screen and (max-width: 600px) {
