@@ -38,11 +38,6 @@ $(function() {
 		options.width = "auto";
 	}
 
-	$( "#allisonModal" ).dialog(options);
-	$( "#allison-pic" ).click(function() {
-		$( "#allisonModal" ).dialog( "open" );
-	});
-
 	$( "#benModal" ).dialog(options);
 	$( "#ben-pic" ).click(function() {
 		$( "#benModal" ).dialog( "open" );
@@ -98,11 +93,6 @@ $(function() {
 		$( "#lizzyModal" ).dialog( "open" );
 	});
 
-	$( "#maryModal" ).dialog(options);
-	$( "#mary-pic" ).click(function() {
-		$( "#maryModal" ).dialog( "open" );
-	});
-
 	$( "#michaelModal" ).dialog(options);
 	$( "#michael-pic" ).click(function() {
 		$( "#michaelModal" ).dialog( "open" );
@@ -121,11 +111,6 @@ $(function() {
 	$( "#rayModal" ).dialog(options);
 	$( "#ray-pic" ).click(function() {
 		$( "#rayModal" ).dialog( "open" );
-	});	
-
-	$( "#reubenModal" ).dialog(options);
-	$( "#reuben-pic" ).click(function() {
-		$( "#reubenModal" ).dialog( "open" );
 	});	
 
 	$( "#tareqModal" ).dialog(options);
