@@ -78,11 +78,6 @@ $(function() {
 		$( "#jonathanModal" ).dialog( "open" );
 	});
 
-	$( "#joyaModal" ).dialog(options);
-	$( "#joya-pic" ).click(function() {
-		$( "#joyaModal" ).dialog( "open" );
-	});
-
 	$( "#lindaModal" ).dialog(options);
 	$( "#linda-pic" ).click(function() {
 		$( "#lindaModal" ).dialog( "open" );
@@ -98,11 +93,6 @@ $(function() {
 		$( "#michaelModal" ).dialog( "open" );
 	});
 
-	$( "#mikhailModal" ).dialog(options);
-	$( "#mikhail-pic" ).click(function() {
-		$( "#mikhailModal" ).dialog( "open" );
-	});
-
 	$( "#rachelModal" ).dialog(options);
 	$( "#rachel-pic" ).click(function() {
 		$( "#rachelModal" ).dialog( "open" );
@@ -112,11 +102,6 @@ $(function() {
 	$( "#ray-pic" ).click(function() {
 		$( "#rayModal" ).dialog( "open" );
 	});	
-
-	$( "#tareqModal" ).dialog(options);
-	$( "#tareq-pic" ).click(function() {
-		$( "#tareqModal" ).dialog( "open" );
-	});  
 
 /* Image Slider js */
 
