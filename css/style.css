@@ -295,6 +295,26 @@ footer {
   text-align: center;
 }
 
+/* Auditions Banner */
+#audition-banner {
+  text-align: center;
+  background-color: #1f66ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#audition-banner a {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#audition-banner a:hover {
+  color: #7CA2D7;
+}
+
+#auditions li {
+  padding-left: 60px;
+}
 
 /* Media Queries for all devices: */
 
