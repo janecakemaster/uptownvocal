@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,19 +12,19 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
+  font: inherit;
+  font-size: 100%;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -43,8 +43,8 @@ q:before, q:after {
   content: none;
 }
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 /* end clear */
 
@@ -56,10 +56,10 @@ body {
 }
 
 p, li {
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.03em;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 26px;
   line-height: 120%;
 }
 p {
@@ -74,8 +74,8 @@ p {
 
 a {
   color: #A7CDDE;
-  font-weight: 500;
   text-decoration: none;
+  font-weight: 500;
 }
 a:hover {
   color: #7CA2D7;
@@ -91,11 +91,11 @@ img {
 }
 
 h1 {
-  color: #A7CDDE;
-  font-size: 42px;
-  font-weight: 800;
   margin: 50px 0 20px 0;
+  color: #A7CDDE;
   text-align: center;
+  font-weight: 800;
+  font-size: 42px;
 }
 
 #parent {
@@ -104,12 +104,12 @@ h1 {
 }
 
 nav {
-  background: #000;
-  height: 100%;
-  margin-left: 10px;
   position: fixed;
-  text-align: right;
+  margin-left: 10px;
   width: 230px;
+  height: 100%;
+  background: #000;
+  text-align: right;
 /*  z-index: 1; */
 }
 
@@ -118,17 +118,17 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   margin: 5px 0 15px 0;
   padding-left: 0;
+  list-style: none;
 }
 
 nav li a {
   display: inline-block;
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 100%;
   padding-left: 5px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 100%;
 }
 
 nav li img {
@@ -141,8 +141,8 @@ nav li img {
 }
 
 #home img {
-  width: 90%;
   padding-top: 60px;
+  width: 90%;
 }
 
 #home h1 {
@@ -150,8 +150,8 @@ nav li img {
 }
 
 #main {
-  margin-left: 250px;
   margin-right: 10px;
+  margin-left: 250px;
   padding: 0 10px 0 20px;
   width: auto;
 }
@@ -177,33 +177,33 @@ section {
 
 #gallery li {
   float: left;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 0.06em;
-  line-height: 110%;
-  list-style: none;
   margin: 0 10px 0 10px;
   padding-bottom: 10px;
   width: 160px;
+  list-style: none;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
 }
 
 #gallery span {
+  position: absolute;
+  overflow-y: hidden;
+  margin-top: -25px;
+  padding: 3px 0 3px 0;
+  width: 160px;
+  height: 17px;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgb(0, 0, 0) transparent;
   /* RGBa */
   background: rgba(0, 0, 0, 0.65);
-  /* For IE 5.5 - 7*/
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000);
+  text-align: center;
+  font-size: 14px;
   /* For IE 8*/
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000)";
-  height: 17px;
-  margin-top: -25px;
-  overflow-y: hidden;
-  padding: 3px 0 3px 0;
-  position: absolute;
-  text-align: center;
-  width: 160px;
-  font-size: 14px;
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000, endColorstr=#BF000000);
 }
 
 #history a {
@@ -215,15 +215,15 @@ section {
 }
 
 .modalStyle img {
-  color: #000000;
   float: left;
   margin-right: 16px;
   width: 120px;
+  color: #000000;
 }
 
 .modalStyle p {
-  font-size: 18px;
   color: #000000;
+  font-size: 18px;
 }
 
 .modalStyle strong,
@@ -232,84 +232,84 @@ section {
 }
 
 .slider {
-  margin: 10px auto;
-  width: 600px; 
-  height: 390px;
   position: relative;
   overflow: hidden;
+  margin: 10px auto;
   padding-bottom: 40px;
+  width: 600px;
+  height: 390px;
 }
 
 .slider li {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: none;
-  position: absolute; 
-  top: 0; 
-  left: 0; 
 }
 
 .line-separator{
-  height:1px;
-  background:#717171;
-  border-bottom:1px solid #313030;
-  text-align: center;
   margin: 30px 20% 30px 20%;
+  height:1px;
+  border-bottom:1px solid #313030;
+  background:#717171;
+  text-align: center;
 }
 
 .store_button{
-  text-transform: uppercase;
-  text-decoration: none;
   display: inline-block;
-  text-align: center;
   margin: 0 5px 5px 0;
   padding: 15px 70px;
-  font-size: 17px;
-  line-height: 20px;
-  letter-spacing: 2px;
+
+  border:2px solid #111;
+  border-color:#6fadc9;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-
-  border:2px solid #111;
   background:#111;
-  color:#f8f8f8;
+
+  /* Color */
+  background-color:#6fadc9;
 
   -webkit-box-shadow:1px 1px 0 rgba(255,255,255,0.4) inset,-1px -1px 0 rgba(255,255,255,0.4) inset,1px 0 0 rgba(0,0,0,.1);
   -moz-box-shadow:1px 1px 0 rgba(255,255,255,0.4) inset,-1px -1px 0 rgba(255,255,255,0.4) inset,1px 0 0 rgba(0,0,0,.1);
   box-shadow:1px 1px 0 rgba(255,255,255,0.4) inset,-1px -1px 0 rgba(255,255,255,0.4) inset,1px 0 0 rgba(0,0,0,.1);
-
-  /* Color */
-  background-color:#6fadc9;
-  border-color:#6fadc9;
+  color:#f8f8f8;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+  line-height: 20px;
   opacity:1;
 }
-  
+
 a.store_button{color: #313131;}
 .store_button:hover{color:#fff;opacity:1;}
 .store_button:active{position:relative;top:1px;}
 
 footer {
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 0.05em;
   margin-top: 100px;
   text-align: center;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 /* Auditions Banner */
 #audition-banner {
-  text-align: center;
-  background-color: #1f66ff;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #7CA2D7;
+  text-align: center;
 }
 
 #audition-banner a {
-  font-size: 18px;
-  color: #ffffff;
+  color: #fff;
+  font-size: 2em;
 }
 
 #audition-banner a:hover {
-  color: #7CA2D7;
+  color: #000;
 }
 
 #auditions li {
@@ -326,7 +326,7 @@ footer {
   }
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+  @media only screen and (min-width: 768px) and (max-width: 959px) { }
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {
@@ -336,8 +336,8 @@ footer {
 
     #main {
       margin: 0 0 0 0;
-      width: 100%;
       padding: 0 0 0 0;
+      width: 100%;
     }
 
     p {
@@ -345,9 +345,9 @@ footer {
     }
 
     #home img {
-      width: 100%;
       padding-top: 0;
       padding-bottom: 10px;
+      width: 100%;
     }
 
     #home h1 {
@@ -357,20 +357,18 @@ footer {
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+  @media only screen and (min-width: 480px) and (max-width: 767px) { }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+  @media only screen and (max-width: 479px) { }
 
 
 /* Opera Media query */
 @media not screen and (1) {
-  
   #gallery span {
     position: static;
   }
-
-} 
+}
 
 /* Firefox label problem, quick fix */
 @-moz-document url-prefix() {
