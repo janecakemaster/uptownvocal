@@ -63,9 +63,19 @@ $(function() {
 		$( "#gabeModal" ).dialog( "open" );
 	});
 
+	$( "#jamesonModal" ).dialog(options);
+	$( "#jameson-pic" ).click(function() {
+		$( "#jamesonModal" ).dialog( "open" );
+	});
+
 	$( "#janeModal" ).dialog(options);
 	$( "#jane-pic" ).click(function() {
 		$( "#janeModal" ).dialog( "open" );
+	});
+
+	$( "#kunalModal" ).dialog(options);
+	$( "#kunal-pic" ).click(function() {
+		$( "#kunalModal" ).dialog( "open" );
 	});
 
 	$( "#heatherModal" ).dialog(options);
@@ -91,6 +101,11 @@ $(function() {
 	$( "#michaelModal" ).dialog(options);
 	$( "#michael-pic" ).click(function() {
 		$( "#michaelModal" ).dialog( "open" );
+	});
+
+	$( "#ninaModal" ).dialog(options);
+	$( "#nina-pic" ).click(function() {
+		$( "#ninaModal" ).dialog( "open" );
 	});
 
 	$( "#rachelModal" ).dialog(options);
